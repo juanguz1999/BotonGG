@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <meta name="google-signin-client_id" content="30639041895-ppfbvk8bvr8buv7ekfrai6tslihjkcjd.apps.googleusercontent.com">
+        <meta name="google-signin-client_id" content="30639041895-eeuqsk4kpm79ucek7lc0kfd8aik3m8pg.apps.googleusercontent.com">
         <title>Freelancer - Start Bootstrap Theme</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />

@@ -12,10 +12,10 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
 
 //Set the OAuth 2.0 Client ID
-$google_client->setClientId('30639041895-eeuqsk4kpm79ucek7lc0kfd8aik3m8pg.apps.googleusercontent.com');
+$google_client->setClientId('30639041895-0l8at7s382j7gkv9ka4th2vp8tjuk2tl.apps.googleusercontent.com');
 
 //Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('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');
+$google_client->setClientSecret('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');
 
 //Set the OAuth 2.0 Redirect URI
 $google_client->setRedirectUri('http://localhost:8888/BotonGG/indexV2.php');
