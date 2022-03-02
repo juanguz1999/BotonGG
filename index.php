@@ -10,7 +10,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
 <body>
   <div id="my-signin2"></div>
   <script>
-      <h1>Preytax si lees esto funciono<h1>
     function onSuccess(googleUser) {
       console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
     }
