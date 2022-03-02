@@ -8,6 +8,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
   <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
 </head>
 <body>
+  <h1>hola</h1>
   <div id="my-signin2"></div>
   <script>
     function onSuccess(googleUser) {
