@@ -6,7 +6,7 @@
         <meta name="description" content="">
         <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
         <meta name="generator" content="Hugo 0.84.0">
-        <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+        <meta name="google-signin-client_id" content="46479244231-mfvjcivsjjqcpespv7fuf08816clui2a.apps.googleusercontent.com">
         <link href="css/signin.css" rel="stylesheet" type="text/css"/>
         <title>Signin Template · Bootstrap v5.0</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
