@@ -9,20 +9,23 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
         <meta name="google-signin-client_id" content="46479244231-85meh2sc6ibs1aumqv4hm9bf7sdirupl.apps.googleusercontent.com">
         <link href="css/Nbar.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
         <title></title>
     </head>
     <body>
-        <nav class="Nbarra" role="navigation">
-            <div>
-                <img src="img/descarga.png" alt="" height="80 "width="100" />
-            </div>
-        </nav>
-    <center><div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="img/Logo PNG.png" alt="" height="50" width="155">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary" id="navbar-bn">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse justify-content-md-center" id="">
+                    <img src="img/descarga.png" alt="" height="80 "width="90" />
                 </div>
             </div>
+        </nav>
+        <div class="container d-flex align-items-center">
+            <!--<div class="row">
+                <div class="col">-->
+                    <img src="img/Logo PNG.png" alt="" height="50" width="155">
+                <!--</div>
+            </div>-->
             <div class="row">
                 <h1>Iniciar Sesion</h1>
             </div>
@@ -43,8 +46,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
             <p class="float-end"><a href="#">Back to top</a></p>
             <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
         </footer>
-    </center>
 
-    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-</body>
+
+        <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
