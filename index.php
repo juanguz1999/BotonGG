@@ -1,7 +1,7 @@
 <html>
 <head>
   <script src="https://apis.google.com/js/platform.js" async defer></script>
-  <meta name="google-signin-client_id" content="46479244231-85meh2sc6ibs1aumqv4hm9bf7sdirupl.apps.googleusercontent.com">
+  <meta name="google-signin-client_id" content="835310088179-sqfe2vno7d95ctb56etlghin5jh9bmkf.apps.googleusercontent.com">
 </head>
 <body>
   <div id="my-signin2"></div>
