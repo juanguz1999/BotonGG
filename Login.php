@@ -26,7 +26,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary" id="navbar-bn">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top" id="navbar-bn">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse justify-content-md-center" id="">
                     <img src="img/descarga.png" alt="" height="80 "width="90" />
