@@ -22,7 +22,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
         <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
         <!--Google-->
-        <meta name="google-signin-client_id" content="46479244231-85meh2sc6ibs1aumqv4hm9bf7sdirupl.apps.googleusercontent.com">
+        <meta name="google-signin-client_id" content="835310088179-sqfe2vno7d95ctb56etlghin5jh9bmkf.apps.googleusercontent.com">
+        <script src="js/gg.js" type="text/javascript"></script>
     </head>
 
     <body>
@@ -48,7 +49,22 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
                         <div class="row">
                             <div class="col">
                                 <div id="my-signin2"></div>
-                                <script src="js/gg.js" type="text/javascript"></script>
+                                <script>
+                                    function onSignIn(googleUser) {
+                                        // Useful data for your client-side scripts:
+                                        var profile = googleUser.getBasicProfile();
+                                        console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+                                        console.log('Full Name: ' + profile.getName());
+                                        console.log('Given Name: ' + profile.getGivenName());
+                                        console.log('Family Name: ' + profile.getFamilyName());
+                                        console.log("Image URL: " + profile.getImageUrl());
+                                        console.log("Email: " + profile.getEmail());
+
+                                        // The ID token you need to pass to your backend:
+                                        var id_token = googleUser.getAuthResponse().id_token;
+                                        console.log("ID Token: " + id_token);
+                                       }
+                                </script>
                             </div>
                         </div>
                         <br>
