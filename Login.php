@@ -15,6 +15,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
         <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+        <link href="css/centrar.css" rel="stylesheet" type="text/css"/>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
         <!-- Los iconos tipo Solid de Fontawesome-->
@@ -35,31 +37,38 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
                 </div>
             </div>
         </nav>
-        <div class="container">
-            <center>
-                <div class="col-sm">
-                    <div class="modal-body">
-                        <div class="col-12">
-                            <img src="img/Logo PNG.png" alt="" height="50" width="155">
-                        </div>
-                        <br>
-                        <h3 style="color: #dc131b">Iniciar Sesion</h3>
-                        <br>
-                        
-                        <!-- Boton Google-->
-                        <div class="row">
-                            <div class="col">
-                                <div id="my-signin2"></div>
+        <div>---------------</div>
+        <main>
+            <section>
+                
+                <div class="container">
+                    <div class="abs-center">
+                        <div class="col-sm">
+                            <div class="modal-body">
+                                <div class="col-12">
+                                    <img src="img/Logo PNG.png" alt="" height="50" width="155">
+                                </div>
+                                <br>
+                                <h3 style="color: #dc131b">Iniciar Sesion</h3>
+                                <br>
+
+                                <!-- Boton Google-->
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="my-signin2"></div>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
                             </div>
                         </div>
-                        <br>
-                        <br>
-                        <footer class="main footer">
-                            <p>&copy; 2022 Preytax and juanguz. &middot; <a href="#">Privacidad</a> &middot; <a href="#">Terminos</a></p>
-                        </footer>
                     </div>
+                    
                 </div>
-            </center>
-        </div>
+            </section>
+        </main>
+        <footer class="main footer ms- ">
+            <p>&copy; 2022 Preytax and juanguz. &middot; <a href="#">Privacidad</a> &middot; <a href="#">Terminos</a></p>
+        </footer>
     </body>
 </html>
