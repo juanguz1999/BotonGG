@@ -1,6 +1,6 @@
 var Email = "Sin captura";
 function onSuccess(googleUser) {
-    window.location.href = "https://www.pca.edu.co";
+    window.location.href = "http://localhost/BotonGG/logout.html";
     var profile = googleUser.getBasicProfile();
     Email = profile.getEmail();
     console.log("Email: " + Email);
