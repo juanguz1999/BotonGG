@@ -1,6 +1,6 @@
 var Email = "Sin captura";
 function onSuccess(googleUser) {
-    window.location.href = "http://localhost/BotonGG/logout.html";
+    window.location.href = "logout.html";
     var profile = googleUser.getBasicProfile();
     Email = profile.getEmail();
     console.log("Email: " + Email);
