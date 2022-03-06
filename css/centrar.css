@@ -13,3 +13,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
   justify-content: center;
   min-height: 100vh;
 }
+
+.form {
+  width: 450px;
+}
