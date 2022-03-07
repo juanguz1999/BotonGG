@@ -1,11 +1,17 @@
 var Email = "Sin captura";
+var name = "Sin nombre";
 
 function onSuccess(googleUser) {
     window.location.href = "logout.html";
+    setTimeout(1000000);
     var profile = googleUser.getBasicProfile();
     Email = profile.getEmail();
+    name = profile.getName();
     console.log("Email: " + Email);
-
+    console.log("Nombre: " + name);
+    document.cookie = "correo="+Email;
+    document.cookie = "nombre="+name;
+    
     /*Posibles consultas adicionales
     console.log("ID: " + profile.getId()); // Don't send this directly to your server!
     console.log('Full Name: ' + profile.getName());
