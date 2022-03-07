@@ -14,11 +14,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
 
         <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
         <link href="css/centrar.css" rel="stylesheet" type="text/css"/>
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
         <!-- Los iconos tipo Solid de Fontawesome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
@@ -31,14 +30,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top" id="navbar-bn">
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse justify-content-md-center" id="">
-                    <img src="img/descarga.png" alt="" height="80 "width="90" />
+        <header>
+            <nav class="navbar navbar-expand-lg bg-primary text-uppercase fixed-top" id="mainNav">
+                <div class="container">
+                    <a class="navbar-brand" href="#page-top">
+                        <div class="collapse navbar-collapse justify-content-md-center" id="mainNav">
+                        <img src="img/descarga.png" alt="" height="80 "width="90" /></a>
+                        </div>
+                    
                 </div>
-            </div>
-        </nav>
-        <div>---------------</div>
+            </nav>
+        </header>
         <main>
             <section>
 
