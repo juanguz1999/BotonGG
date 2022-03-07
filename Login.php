@@ -24,7 +24,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
         <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
         <!--Google-->
-        <meta name="google-signin-client_id" content="46479244231-85meh2sc6ibs1aumqv4hm9bf7sdirupl.apps.googleusercontent.com">
+        <meta name="google-signin-client_id" content="30639041895-0l8at7s382j7gkv9ka4th2vp8tjuk2tl.apps.googleusercontent.com">
         <script src="js/gg.js" type="text/javascript"></script>
         <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
     </head>
